@@ -5,41 +5,49 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-  <form>
-    <ul>
-      <li>
-        <label for="firstName">First Name: </label>
-        <input type="text" id="firstName" name="firstName" required>
-      </li>
-      <li>
-        <label for="lastName">Last Name: </label>
-        <input type="text" id="lastName" name="lastName" required>
-      </li>
-      <li>
-        <label for="mail">Email: </label>
-        <input type="email" id="mail" name="mail" required>
-      </li>
-      <li>
-        <label for="phone">Phone Number: </label>
-        <input type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required>
-      </li>
-      <li>
-        <label for="passWord">Password: </label>
-        <input type="text" id="passWord" name="passWord" required>
-      </li>
-      <li>
-        <label for="passConfirm">Confirm Password: </label>
-        <input type="text" id="passConfirm" name="passConfirm" required>
-      </li>
-      <li class="button">
-        <button type="submit">Sign Up</button>
-      </li>
-    </ul> 
-  </form>
-
+  <div class="background">
+    <img src="images/cabin.jpg">
+  </div>
+  <div class="logo">
+    <img src="images/odin-lined.png">
+  </div> 
+  <div class="form">
+    <form>
+      <ul>
+        <li>
+          <label for="firstName">First Name: </label>
+          <input type="text" id="firstName" name="firstName" required>
+        </li>
+        <li>
+          <label for="lastName">Last Name: </label>
+          <input type="text" id="lastName" name="lastName" required>
+        </li>
+        <li>
+          <label for="mail">Email: </label>
+          <input type="email" id="mail" name="mail" required>
+        </li>
+        <li>
+          <label for="phone">Phone Number: </label>
+          <input type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required>
+        </li>
+        <li>
+          <label for="passWord">Password: </label>
+          <input type="text" id="passWord" name="passWord" required>
+        </li>
+        <li>
+          <label for="passConfirm">Confirm Password: </label>
+          <input type="text" id="passConfirm" name="passConfirm" required>
+        </li>
+        <li class="button">
+          <button type="submit">Sign Up</button>
+        </li>
+      </ul> 
+    </form>
+  </div>
 </body>
 
 </html>
