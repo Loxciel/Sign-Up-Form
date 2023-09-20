@@ -6,21 +6,20 @@
 }
 
 body {
-  background-color: black;
+  background-color: grey;
   display: flex;
-  flex-direction: column;
 }
 
-.background {
+ul {
+  list-style: none;
+}
+
+.left {
   display: flex;
   height: auto;
-  width: 30%;
+  min-width: 30%;
   background-color: blue;
-}
-
-.cabin {
-  max-width: 100px;
-  max-height: 100px;
+  flex-direction: column;
 }
 
 .logo {
@@ -28,12 +27,14 @@ body {
   max-height: 100px;
 }
 
+.right {
+  background-color: red;
+  min-width: 70%;
+}
+
 .form {
   background-color: white;
   width: 70%;
   height: auto;
-}
-
-ul {
-  list-style: none;
+  margin: auto;
 }
