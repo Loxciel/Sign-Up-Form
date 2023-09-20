@@ -1,15 +1,19 @@
 .html {
   padding: 0;
+  overflow: visible;
+  height: 100%;
+  width: 100%;
 }
 
 body {
-  display: flex; 
+  background-image: url("images/cabin.jpg");
 }
 
 .background {
   display: flex;
-  background-image: url("images/cabin.jpg");
-  background-size: auto;
+  background: 
+  height: 100%;
+  width: 100%;
 }
 
 .cabin {
@@ -22,6 +26,6 @@ body {
   max-height: 100px;
 }
 
-.form {
-  background-color:blue;
+ul {
+  list-style: none;
 }
